@@ -1,0 +1,151 @@
+:root {
+  --main-color: #47e10c;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  background-color: #333;
+}
+.title {
+  padding: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--main-color);
+}
+.gen-info {
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  margin: 15px 0;
+  letter-spacing: 1.2px;
+}
+.gen-info .dif::before {
+  content: "[";
+  color: var(--main-color);
+}
+.gen-info .dif::after {
+  content: "]";
+  color: var(--main-color);
+}
+.gen-info .tim::before {
+  content: "[";
+  color: var(--main-color);
+}
+.gen-info .tim::after {
+  content: "]";
+  color: var(--main-color);
+}
+.button {
+  font-size: 20px;
+  text-align: center;
+  background-color: #111;
+  margin: 15px auto;
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+.the-word {
+  font-size: 50px;
+  text-align: center;
+  color: var(--main-color);
+  font-weight: bold;
+  user-select: none;
+  text-transform: capitalize;
+  padding: 15px;
+  margin: 15px 0;
+}
+.input {
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+  display: block;
+  font-size: 30px;
+  border: 4px solid var(--main-color);
+  caret-color: var(--main-color);
+  outline: none;
+  padding: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.exp-words {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px auto;
+  padding: 15px;
+}
+.exp-words div {
+  background-color: var(--main-color);
+  padding: 7px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 10px;
+  user-select: none;
+}
+.sandt {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  /* margin: 15px 0; */
+  background-color: #111;
+  color: #fff;
+  font-size: 15px;
+}
+.final .win {
+  color: var(--main-color);
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 50px;
+  background-color: blue;
+  margin-top: 30px;
+}
+.final .lose {
+  background-color: darkred;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 50px;
+  margin-top: 30px;
+
+}
+
+.select-box {
+  margin-left: 30px;}
+
+.select-box select {
+  padding: 2px;
+  font-size: 13px;
+  background-color: #111;
+  color: #fff;
+  outline : none
+}
+.instruction {
+  padding: 15px;
+  line-height: 1.7;
+}
+.instruction .head {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.instruction div {
+  color: #fff;
+  font-size: 17px;
+}

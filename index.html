@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Css/main.css" />
+    <title>Typing Test Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title" class="title">Typing Test Game</div>
+      <div class="game">
+        <div class="gen-info">
+          Your diffcult set to <span class="dif"></span> and time for word is
+          <span class="tim"></span>
+          <span class="select-box">
+            <select name="difficult" id="select">
+              <option value="Easy" id="easy">Easy</option>
+              <option value="Normal" id="normal" selected>Normal</option>
+              <option value="Hard" id="hard">Hard</option>
+            </select>
+          </span>
+        </div>
+        <div class="button">Start the game</div>
+        <div class="the-word"></div>
+        <input type="text" class="input" />
+        <div class="exp-words"></div>
+        <div class="sandt">
+          <div class="time-left">Time left is <span></span></div>
+          <div class="score">
+            You got <span class="got">0</span> From <span class="from"></span>
+          </div>
+        </div>
+        <div class="final"></div>
+        <div class="instruction">
+          <div class="head">Instructions:</div>
+          <div>1- You have 3 difficult to play /Easy - Normal - Hard/ default one is Normal. </div>
+          <div>2- The words and time are also different based on the difficult.</div>
+          <div>3- <span class="easy-difficult"></span> you'll write Easy words with long time <span class="time-easy"></span> and few charcters in the word.</div>
+          <div>4- <span class="normal-difficult"></span> you'll write Normal length words with <span class="time-normal"></span> time and acceptable number of charcters in the word.</div>
+          <div>5- <span class="hard-difficult"></span> for professional writers you'll write long words with <span class="time-hard"></span> time and a lot of charcters in the word.</div>
+          <div>6- First time you will get extra 3s.</div>
+          <div>7- You should write the words as fast as you can for at least quick look at the expected words.</div>
+          <div>8- Your data will saved to local storage.</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="Js/main.js"></script>
+  </body>
+</html>
