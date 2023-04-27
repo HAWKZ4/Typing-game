@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 .container {
-  height: 100vh;
+  height: 105vh;
   background-color: #333;
 }
 .title {
@@ -72,6 +72,7 @@ body {
   display: block;
   font-size: 30px;
   border: 4px solid var(--main-color);
+  background-color: #FFFFC9;
   caret-color: var(--main-color);
   outline: none;
   padding: 15px;
